@@ -1,7 +1,7 @@
 import React from 'react'
 
 class HelloWorld extends React.Component {
-    render() {
+    render() {  
 
         const itemArr = [{name: "anagha", age: 25},{name: "manasi", AGE: 24},{name: "shweta", age: 26}]
 
@@ -10,6 +10,8 @@ class HelloWorld extends React.Component {
         return(
             <div key={index}>
                <h6>{item.name}</h6> 
+               <h6>{item.age}</h6> 
+
             </div>
             )
         })
